@@ -72,11 +72,24 @@ nav ul {
 .a1 > p {
   font-size: 17px;
   font-weight: bold;
-  text-align: center;
+  padding: 20px 0 20px 200px;
 }
 
 .a1 {
   background-color: rgb(247, 247, 247);
+  width: 500px;
+  height: 750px;
+  margin-top: 50px;
+}
+.a1 div p {
+  width: 30px;
+  height: 30px;
+  margin: 20px 0 35px 20px;
+  background-color: rgb(61, 61, 248);
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  padding-left: 5px;
 }
 .sec2 div {
   width: 1500px;
