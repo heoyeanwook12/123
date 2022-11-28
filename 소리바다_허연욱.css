@@ -1,0 +1,177 @@
+.search {
+  position: relative;
+  width: 500px;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.search img {
+  position: absolute;
+  width: 17px;
+  top: 10px;
+  right: 12px;
+  margin: 0;
+}
+
+.hd {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 60px;
+}
+.lo {
+  padding: 10px;
+  background-color: rgb(58, 58, 221);
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.sec1 {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.sec1 h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sec1 {
+  display: flex;
+}
+
+.sec1 ul > div {
+  display: flex;
+  text-align: center;
+}
+.sec1 li {
+  margin: 40px 40px 20px 0;
+}
+.sec1 ul {
+  margin-top: 70px;
+}
+.a1 p {
+  display: flex;
+}
+.a1 > p {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 20px 0 20px 200px;
+}
+
+.a1 {
+  background-color: rgb(247, 247, 247);
+  width: 500px;
+  height: 750px;
+  margin-top: 50px;
+}
+.a1 div p {
+  width: 30px;
+  height: 30px;
+  margin: 20px 0 35px 20px;
+  background-color: rgb(61, 61, 248);
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  padding-left: 5px;
+}
+.sec2 div {
+  width: 1500px;
+  margin: auto;
+}
+.sec2 > div {
+  background: linear-gradient(135deg, rgb(2, 144, 226), rgb(118, 228, 255));
+  height: 200px;
+  padding: 30px 0 0px 70px;
+}
+.sec2 {
+  margin: 100px;
+}
+.sec2 p {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.sec2 div > div {
+  text-align: right;
+  margin-left: 1200px;
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+  background: linear-gradient(180deg, rgb(62, 2, 226), rgb(136, 144, 255));
+  text-align: center;
+  padding-top: 5px;
+}
+
+.sec2 div > a {
+  color: white;
+}
+
+.sec3 {
+  width: 1500px;
+  margin: auto;
+}
+.sec3 ul {
+  display: flex;
+}
+
+.sec3 li {
+  margin: 50px 60px 50px 0;
+  text-align: center;
+}
+.sec3 li p {
+  margin-top: 20px;
+}
+
+.sec3 h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.sec4 {
+  width: 1500px;
+  margin: auto;
+  margin-top: 100px;
+}
+.sec4 ul {
+  display: flex;
+}
+
+.sec4 li {
+  margin: 50px 60px 50px 0;
+  text-align: center;
+}
+.sec4 li p {
+  margin-top: 20px;
+}
+
+.sec4 h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.f1 {
+  display: flex;
+  width: 1500px;
+  margin: auto;
+}
+.d2 {
+  margin-left: 900px;
+}
