@@ -24,8 +24,15 @@ input {
   justify-content: space-between;
   max-width: 1400px;
   margin: auto;
+  margin-top: 60px;
 }
-
+.lo {
+  padding: 10px;
+  background-color: rgb(58, 58, 221);
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+}
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -145,4 +152,13 @@ nav ul {
 .sec4 h1 {
   font-size: 30px;
   font-weight: bold;
+}
+
+.f1 {
+  display: flex;
+  width: 1500px;
+  margin: auto;
+}
+.d2 {
+  margin-left: 900px;
 }
