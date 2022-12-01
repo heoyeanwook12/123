@@ -26,6 +26,7 @@ input {
   margin: auto;
   margin-top: 60px;
 }
+
 .lo {
   padding: 10px;
   background-color: rgb(58, 58, 221);
@@ -33,6 +34,7 @@ input {
   color: white;
   font-weight: bold;
 }
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -92,13 +94,13 @@ nav ul {
   padding-left: 5px;
 }
 .sec2 div {
-  width: 1500px;
+  max-width: 1500px;
   margin: auto;
 }
 .sec2 > div {
   background: linear-gradient(135deg, rgb(2, 144, 226), rgb(118, 228, 255));
   height: 200px;
-  padding: 30px 0 0px 70px;
+  max-width: 1500px;
 }
 .sec2 {
   margin: 100px;
@@ -119,7 +121,9 @@ nav ul {
   text-align: center;
   padding-top: 5px;
 }
-
+.sec2 > div {
+  padding: 20px 0 20px 60px;
+}
 .sec2 div > a {
   color: white;
 }
@@ -174,4 +178,23 @@ nav ul {
 }
 .d2 {
   margin-left: 900px;
+}
+
+@media all and (max-width: 800px) {
+  input,
+  .d1,
+  .u1,
+  .search img {
+    display: none;
+  }
+  .logo > img {
+    width: 70%;
+    margin-left: 10%;
+  }
+}
+
+@media all and (min-width: 801px) and (max-width: 1920px) {
+  .d2 {
+    display: none;
+  }
 }
