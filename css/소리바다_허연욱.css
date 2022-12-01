@@ -180,21 +180,6 @@ nav ul {
   margin-left: 900px;
 }
 
-@media all and (max-width: 800px) {
-  input,
-  .d1,
-  .u1,
-  .search img {
-    display: none;
-  }
-  .logo > img {
-    width: 70%;
-    margin-left: 10%;
-  }
-}
-
-@media all and (min-width: 801px) and (max-width: 1920px) {
-  .d2 {
-    display: none;
-  }
+.s2 {
+  display: none;
 }
